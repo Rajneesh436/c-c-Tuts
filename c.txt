@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+// math.h is included for the log() function
+#include <math.h>
+
+int main()
+{
+    // Variable declarations
+    double answer;
+    double num = 7.3;
+
+    // log() returns the natural logarithm of the argument
+    answer = log(num);
+
+    // Print the answer of the log function
+    printf("log(%f) = %f", num, answer);
+
+    return 0;
+}
