@@ -1,0 +1,42 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 1;
+    int b = 1;
+    int s = 0;
+    int t = 1;
+ 
+    // a++; // post increment
+    // ++a; // pre increment
+    // cout<<a++<<endl; // 5
+    // cout<<a;
+    // a = a+1;
+    // cout<<++a<<endl; 
+    // a = a+1;
+    // cout<<a;
+//   a++;
+//   cout<<a;
+   
+//   ++a;
+//   cout<<a;
+
+    // short circuit
+    // if(a++ || ++b){  // 1 || 1
+    //     cout<<a<<" "<<b;
+    // }else{
+    //     cout<<a<<" "<<b;
+    // }
+    // ++ -- = == ?:
+    //ternery operator ?:
+    (false) ?  cout<<"I am if "  : cout<<"i am else  ";
+    cout<<sizeof(11111111);
+    // Home Work
+    // how to conver a number to its binary representation
+    return 0;
+}
+
+
+
+
