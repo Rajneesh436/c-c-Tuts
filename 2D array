@@ -1,0 +1,50 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    int arr[5] ={1,12,23,67,890};
+//     for(int i=0;i<5;i++){
+//     cout<<"enter number";
+//     int n;
+//     cin>>n;
+//     arr[i]=n;
+// }
+// int sum=0;
+// sizeof(arr)/sizeof(arr[0]);
+// for(int i=0;i<5;i++){
+//     sum = sum+arr[i];
+// }
+// [1,2,4,56,7,8]
+// max element of the array
+
+// enhanced for loop
+// for(auto i : arr){
+//     cout<<i<<" ";
+// }
+
+// cout<<arr[-1]<<" "<<arr[12];
+// arr=[[0 1],[3 1],[2,8]] 3x2
+// arr[0][0] = 0
+int ar[3][2];
+// [0][0] [0][1] 
+// [1][0] [1][1]
+// [2][0] [2][1]
+
+for(int i=0;i<3;i++){
+    for(int j=0;j<2;j++){
+        int n;
+        cout<<"input daalo";
+        cin>>n;
+        ar[i][j] = n;        
+    }
+}
+
+
+for(int i=0;i<3;i++){
+    for(int j=0;j<2;j++){
+        cout<<ar[i][j]<<" ";  
+    }
+    cout<<endl;
+}
+    return 0;
+}
