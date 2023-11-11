@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+    // pointers
+    int a= 121;
+    char b = 'a';
+    // %d = integer
+    // %f = float
+    // %u = unsigned integer
+    // %p = memory address(hexa decimal format)
+    
+    // pointers are derived data type
+    char *ptr;
+    // ptr = &a;
+    ptr = &b;
+    // p is a pointer which stores memory address of "a" and "a" is of type int
+    // & is address of operator and * is dereferencing operator
+    
+    // *ptr = *ptr+100;
+    
+    // pointers arithmatics
+    // ++, --, +, -, =, >, >=, <,<=, ==
+    printf("%d\n",ptr);
+    ptr = ptr+5;
+    printf("%d\n",ptr);
+    return 0;
+}
