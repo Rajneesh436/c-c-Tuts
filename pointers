@@ -1,0 +1,34 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int arr[4];
+    int size = sizeof(arr)/sizeof(arr[0]);
+    // printf("%d",size);
+    // &-> referencing operator(Address of)
+    // * - dereferencing operator
+    int a = 12;
+    // type of pointer depends upon type of variable for which it will store address of.
+    // i.e. int * ptr will store address of a variable of type only int
+    int* ptr = &a;
+    // %p flag->  memory address
+    // %d flag-> int
+    // printf("%d",ptr);
+    
+    // * operator is used to get value at that address
+    int value = *ptr;
+    // printf("\n%d",value);
+    
+    // pointer arithmetic
+    // ptr--;
+    // ptr++;
+    // printf("\n%d",ptr);
+    
+    // pointer of pointer
+    int* * ptr2 = &ptr;
+    printf("\n%d",ptr);
+    printf("\n%d",**ptr2);
+    printf("\n%d",ptr2<ptr);
+    
+    return 0;
+}
