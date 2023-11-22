@@ -24,5 +24,16 @@ int main() {
   increment(&a);
   printf("%d",a);
 
+ // array and pointers
+   int a =12;
+   int arr[] = {10,2,3,4};
+//   int * ptr = arr;
+    for(int i=0;i<4;i++){
+        printf("%d\n",*(arr+i));
+    }
+    
+    // Dangling pointers and wild pointers in computer programming are pointers that do not point to a valid object of the appropriate type.
+    
+
     return 0;
 }
