@@ -1,0 +1,36 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+//   char arr[] = {'r','u','s','h','i'};
+// \0 -> represents terminating character
+//   char arr[] = "rushi";
+   // note: String can be traversed
+//   int size = sizeof(arr)/sizeof(arr[0]);
+    // printf("%d",size);
+//   for(int i=0;i<size;i++){
+//       printf("%c",arr[i]);
+//   }
+    
+    // char str1[100]="hi there how are you";
+    // scanf("%s",str);
+    // printf("%s",str);
+    // problem with scanf is it takes input until it find a space
+
+    
+    // ---------------functions---------------------
+    // 1. gets function-> takes whole input
+    // gets(str);
+    
+    // 2. puts function-> prints the string
+    // puts(str);
+    
+    // 3. strcpy function
+    // char str1[100]="hi there how are you";
+    // char str2[100];
+    // strcpy(str2,str1);
+    // puts(str2);
+
+    return 0;
+}
