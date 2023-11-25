@@ -1,0 +1,23 @@
+// C Program to illustrate the static variable lifetime
+#include <stdio.h>
+
+// A static int variable remains in memory while the program is running.
+
+int fun(){
+// count variable will stay in the memory untill program stops.
+	static int count = 0;
+	count++;
+	return count; //3
+}
+
+int main()
+{
+    int ans = fun();
+    int ans2 = fun();
+    int ans3 = fun();
+	printf("%d\n", ans);
+	printf("%d\n", ans2);
+	printf("%d\n", ans3);
+
+	return 0;
+}
