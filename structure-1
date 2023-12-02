@@ -1,0 +1,57 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    // // user defined data type
+    // struct newstruct{
+    //     int num;
+    //     char ch;
+    // };
+    
+    // struct newstruct a;
+    // struct newstruct b;
+    // a.num=12;
+    // a.ch='a';
+    // b.num = 13;
+    // printf("My number: %d\n", a.num);
+    // printf("My letter: %c\n", a.ch);
+    // printf("My number: %d\n", b.num);
+    
+    // ---- define variable at time of structure creation----
+    // struct Mystruct{
+    //     int num;
+    //     char ch;
+    // }s1,s2,s3;
+    
+    // s1.num=12;
+    // s1.ch = 'a';
+    // printf("My number: %d\n", s1.num);
+    // printf("My number: %c\n", s1.ch);
+
+    // struct Mystruct{
+    //     int num;
+    //     char ch;
+    // };
+    // // initializer list -> define and declare variable together
+    // struct Mystruct s1={1,'v'};
+    
+    // printf("My number: %d\n", s1.num);
+    // printf("My number: %c\n", s1.ch);
+    
+    // int a = 10;
+    // int * ptr = &a;
+    
+    
+    
+    // --------structure pointers
+    // struct Mystruct{
+    //     int num;
+    //     char ch;
+    // };
+    
+    // struct Mystruct str = {11,'a'};
+    // struct Mystruct* ptr = &str;
+    // printf("%d %c",ptr->num, ptr->ch);
+    
+    return 0;
+}
