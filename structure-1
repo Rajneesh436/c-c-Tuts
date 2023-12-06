@@ -52,6 +52,13 @@ int main() {
     // struct Mystruct str = {11,'a'};
     // struct Mystruct* ptr = &str;
     // printf("%d %c",ptr->num, ptr->ch);
-    
+
+
+// -----copy structures-------
+struct myStructure s1 = {13, 'B'};
+struct myStructure s2;
+s2 = s1;
+
+
     return 0;
 }
