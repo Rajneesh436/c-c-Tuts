@@ -1,0 +1,40 @@
+#include <iostream>
+using namespace std;
+int main() {
+ 
+//   typedef struct newstruct{
+//       int num; //4
+//       char ch; //1
+//   }a;
+ 
+// //   typedef struct newstruct a;
+//   struct newstruct b;
+// //   a.num=11;
+// //   b.ch='s';
+// //   cout<<a.num<<endl;
+// //   cout<<b.ch<<endl;
+ 
+//     cout<< sizeof(a);
+   union geek { 
+    // Defining data members 
+    int age; // 4
+    char grade; //1
+    float GPA; // 8
+}; 
+ 
+ // Defining a union variable 
+    union geek student1; 
+ 
+    // Assigning values to data member of union geek and 
+    // printing the values of data members 
+    student1.age = 25; 
+ 
+    student1.grade = 'B'; 
+ 
+    student1.GPA = 4.5; 
+    cout << "Age : " << student1.age << endl; 
+    cout << "Grade : " << student1.grade << endl; 
+    cout << "GPA : " << student1.GPA << endl; 
+ 
+  return 0;
+}
