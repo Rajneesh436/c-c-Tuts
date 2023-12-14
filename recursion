@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+ 
+// void fib(int a,int b){
+//     for(int i=0;i<10;i++){
+//       int c=a+b;
+//       a=b;
+//       b=c;
+//       cout<<c<<" ";
+//     }
+// }
+ 
+int fibAtPstn(int n){
+   if(n==0) return 0;
+   if(n==1) return 1;
+   return fibAtPstn(n-1)+fibAtPstn(n-2);
+}
+ 
+int main() {
+//   int a= 0;
+//   int b=1;
+//   int c;
+//   cout<<a<<" "<<b<<" ";
+  int ans = fibAtPstn(3);
+    cout<<ans;
+    return 0;
+}
