@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+class Geeks { 
+    public:
+    
+    string name; 
+    void printname() {
+        cout<< name; 
+    };
+    int num = 121212;
+}; 
+
+int main() {
+    Geeks obj;
+    // obj.name = "hi there";
+    // cout<<obj.name<<endl;
+    cout<<obj.num;
+    obj.printname();
+    return 0;
+}
